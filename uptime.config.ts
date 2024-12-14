@@ -17,7 +17,7 @@ const workerConfig = {
   // Define all your monitors here
   monitors: [
     {
-      id: '80443',
+      id: 'default',
       name: 'SaaS主页',
       method: 'GET',
       target: 'https://wula.us.kg',
