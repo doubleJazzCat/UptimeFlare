@@ -17,6 +17,13 @@ const workerConfig = {
   // Define all your monitors here
   monitors: [
     {
+      id: '80443',
+      name: 'SaaS主页',
+      method: 'GET',
+      target: 'https://wula.us.kg',
+      statusPageLink: 'https://wula.us.kg'
+    },
+    {
       id: 'mail',
       name: 'Mail邮箱前端',
       method: 'GET',
