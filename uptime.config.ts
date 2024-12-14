@@ -47,7 +47,7 @@ const workerConfig = {
       id: 'message-pusher',
       name: 'MessagePusher信息推送',
       method: 'GET',
-      target: 'https://message-pusher.xc9z.us.kg'
+      target: 'https://wula.us.kg/mp'
     },
     // // Example HTTP Monitor
     // {
