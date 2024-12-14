@@ -5,7 +5,7 @@ const pageConfig = {
   links: [
 //    { link: 'https://github.com/doubleJazzCat', label: 'GitHub' },
 //    { link: 'https://blog.lyc8503.net/', label: 'Blog' },
-    { link: 'mailto:xc9@meloncat.us.kg', label: 'Email Me', highlight: true },
+    { link: 'mailto:xc9@meloncat.top', label: 'Email Me', highlight: true },
   ],
 }
 
