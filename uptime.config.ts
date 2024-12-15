@@ -17,17 +17,24 @@ const workerConfig = {
   // Define all your monitors here
   monitors: [
     {
-      id: 'default',
+      id: 'wula',
       name: 'SaaS主页',
       method: 'GET',
       target: 'https://wula.us.kg',
       statusPageLink: 'https://wula.us.kg'
     },
     {
-      id: 'message-pusher',
-      name: '信息推送服务',
+      id: 'mp-wula',
+      name: '微信应用推送',
       method: 'GET',
       target: 'https://wula.us.kg/mp'
+    },
+    {
+      id: 'mp',
+      name: '信息推送服务',
+      method: 'GET',
+      target: 'https://mp.xc9z.us.kg',
+      statusPageLink: 'https://mp.xc9z.us.kg'
     },
     {
       id: 'mail',
