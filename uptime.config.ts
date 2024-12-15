@@ -24,6 +24,12 @@ const workerConfig = {
       statusPageLink: 'https://wula.us.kg'
     },
     {
+      id: 'message-pusher',
+      name: '信息推送服务',
+      method: 'GET',
+      target: 'https://wula.us.kg/mp'
+    },
+    {
       id: 'mail',
       name: 'Mail邮箱前端',
       method: 'GET',
@@ -49,12 +55,6 @@ const workerConfig = {
       method: 'GET',
       target: 'https://github.meloncat.us.kg',
       statusPageLink: 'https://github.meloncat.us.kg'
-    },
-    {
-      id: 'message-pusher',
-      name: 'MessagePusher信息推送',
-      method: 'GET',
-      target: 'https://wula.us.kg/mp'
     },
     // // Example HTTP Monitor
     // {
