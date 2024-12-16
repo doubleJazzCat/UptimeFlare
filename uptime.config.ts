@@ -49,20 +49,6 @@ const workerConfig = {
       method: 'GET',
       target: 'https://api.mail.meloncat.us.kg'
     },
-    {
-      id: 'docker',
-      name: 'Docker代理',
-      method: 'GET',
-      target: 'https://docker.meloncat.us.kg',
-      statusPageLink: 'https://docker.meloncat.us.kg'
-    },
-    {
-      id: 'github',
-      name: 'Github下载代理',
-      method: 'GET',
-      target: 'https://github.meloncat.us.kg',
-      statusPageLink: 'https://github.meloncat.us.kg'
-    },
     // // Example HTTP Monitor
     // {
     //   // `id` should be unique, history will be kept if the `id` remains constant
