@@ -1,6 +1,6 @@
 const pageConfig = {
   // Title for your status page
-  title: "MelonCatStatus",
+  title: "梅林猫的监控",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
 //    { link: 'https://github.com/doubleJazzCat', label: 'GitHub' },
@@ -31,7 +31,7 @@ const workerConfig = {
     },
     {
       id: 'mp',
-      name: '通用信息推送',
+      name: '通用消息推送',
       method: 'GET',
       target: 'https://mp.xc9z.us.kg',
       statusPageLink: 'https://mp.xc9z.us.kg'
