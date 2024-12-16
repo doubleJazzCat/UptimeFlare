@@ -18,36 +18,30 @@ const workerConfig = {
   monitors: [
     {
       id: 'wula',
-      name: 'SaaS主页',
+      name: '主页',
       method: 'GET',
       target: 'https://wula.us.kg',
       statusPageLink: 'https://wula.us.kg'
     },
     {
       id: 'mp-wula',
-      name: '微信应用推送',
+      name: '企微推送',
       method: 'GET',
       target: 'https://wula.us.kg/mp'
     },
     {
       id: 'mp',
-      name: '信息推送服务',
+      name: '通用信息推送',
       method: 'GET',
       target: 'https://mp.xc9z.us.kg',
       statusPageLink: 'https://mp.xc9z.us.kg'
     },
     {
       id: 'mail',
-      name: 'Mail邮箱前端',
+      name: '临时邮箱',
       method: 'GET',
-      target: 'https://mail.meloncat.us.kg',
+      target: 'https://api.mail.meloncat.us.kg',
       statusPageLink: 'https://mail.meloncat.us.kg'
-    },
-    {
-      id: 'api-mail',
-      name: 'ApiMail邮箱后端',
-      method: 'GET',
-      target: 'https://api.mail.meloncat.us.kg'
     },
     // // Example HTTP Monitor
     // {
