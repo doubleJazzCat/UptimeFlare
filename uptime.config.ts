@@ -17,20 +17,6 @@ const workerConfig = {
   // Define all your monitors here
   monitors: [
     {
-      id: 'wula',
-      name: 'SaaS主页',
-      method: 'GET',
-      target: 'https://wula.us.kg',
-      statusPageLink: 'https://wula.us.kg'
-    },
-    {
-      id: 'serv',
-      name: '离群服务器',
-      method: 'GET',
-      target: 'https://serv.wula.us.kg',
-      statusPageLink: 'https://serv.wula.us.kg'
-    },
-    {
       id: 'mp-wula',
       name: '企微推送',
       method: 'GET',
