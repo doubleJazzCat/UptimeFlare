@@ -18,10 +18,17 @@ const workerConfig = {
   monitors: [
     {
       id: 'wula',
-      name: '主页',
+      name: 'SaaS主页',
       method: 'GET',
       target: 'https://wula.us.kg',
       statusPageLink: 'https://wula.us.kg'
+    },
+    {
+      id: 'serv',
+      name: '离群服务器',
+      method: 'GET',
+      target: 'https://serv.wula.us.kg',
+      statusPageLink: 'https://serv.wula.us.kg'
     },
     {
       id: 'mp-wula',
